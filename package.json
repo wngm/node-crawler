@@ -1,0 +1,28 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "Node crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wngzhe/node-crawler.git"
+  },
+  "keywords": [
+    "node",
+    "crawler"
+  ],
+  "author": "wengzhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wngzhe/node-crawler/issues"
+  },
+  "homepage": "https://github.com/wngzhe/node-crawler#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "cheerio": "^1.0.0-rc.3",
+    "crawler": "^1.2.1"
+  }
+}
